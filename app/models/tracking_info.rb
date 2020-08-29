@@ -1,0 +1,2 @@
+class TrackingInfo < ApplicationRecord
+end
