@@ -1,22 +1,33 @@
 
+AccessConnectionDatum.destroy_all
 Carrier.destroy_all
+
 
 Carrier.create!([{
   name: "Fedex",
-  model: "Fedex",
-  status: "Activated"
+  model: "FedexCarrier",
+  status: "Active",
+  access_connection_datum_attributes:
+      {
+          access_data: { key: 'O21wEWKhdDn2SYyb',
+                         password: 'db0SYxXWWh0bgRSN7Ikg9Vunz',
+                         account_number: '510087780',
+                         meter: '119009727',
+                         mode: 'test'}
+      }
 },
 {
   name: "Ups",
-  model: "Ups",
-  status: "Activated"
+  model: "UpsCarrier",
+  status: "Active"
 },
 {
   name: "Estafeta",
-  model: "Estafeta",
-  status: "Deactivated"
+  model: "EstafetaCarrier",
+  status: "Active"
 }
 ])
+
 
 
 

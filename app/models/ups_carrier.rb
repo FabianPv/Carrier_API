@@ -1,0 +1,2 @@
+class UpsCarrier < Carrier
+end

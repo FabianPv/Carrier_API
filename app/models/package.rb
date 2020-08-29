@@ -1,2 +1,2 @@
-class Package < ApplicationRecord
+class Package < Struct.new(:id)
 end
