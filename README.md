@@ -10,12 +10,14 @@ Things you may want to cover:
 * Rails version 6.0.3.2
 
 * Database creation
-  Run commands: rake db:create
-                rake db:migrate
+  <br>Run commands: <br>rake db:create
+                <br>rake db:migrate 
                 
 * Database initialization
-  Run commands: rake db:seed
-                rake db:seed RAILS_ENV=test
+  <br>Run commands: <br>rake db:seed
+                <br>rake db:seed RAILS_ENV=test
 
 * How to run the test
   Gem for testing: RSPEC
+  <br>For run test
+  <br>Run command: bundle exec rspec
