@@ -3,8 +3,6 @@ class Carrier < ApplicationRecord
     has_one :access_connection_datum
     accepts_nested_attributes_for :access_connection_datum, allow_destroy: true
 
-    enum status: { created: "CREATED", on_transit: "ON_TRANSIT", delivered: "DELIVERED",  exception: "EXCEPTION"}, _prefix: :status
-
     scope :active, -> { where(status: "Active")}
 
     def initialize(*args)
