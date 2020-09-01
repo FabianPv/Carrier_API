@@ -21,3 +21,5 @@ Things you may want to cover:
   Gem for testing: RSPEC
   <br>For run test
   <br>Run command: bundle exec rspec
+  
+* Run server on port 3000 for use the API from the tracker front end
