@@ -5,20 +5,19 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version 2.7.0
 
-* System dependencies
-
-* Configuration
+* Rails version 6.0.3.2
 
 * Database creation
-
+  <br>Run commands: <br>rake db:create
+                <br>rake db:migrate 
+                
 * Database initialization
+  <br>Run commands: <br>rake db:seed
+                <br>rake db:seed RAILS_ENV=test
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* How to run the test
+  Gem for testing: RSPEC
+  <br>For run test
+  <br>Run command: bundle exec rspec
