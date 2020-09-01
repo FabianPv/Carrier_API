@@ -9,6 +9,8 @@ Things you may want to cover:
 
 * Rails version 6.0.3.2
 
+* Database: SQLlite gem: sqlite3
+
 * Database creation
   <br>Run commands: <br>rake db:create
                 <br>rake db:migrate 
