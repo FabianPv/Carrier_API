@@ -1,3 +1,3 @@
-class TrackingInfo < Struct.new(:id,:status, :address)
-    attr_accessor :events
+class TrackingInfo < Struct.new(:status, :description)
+    
 end

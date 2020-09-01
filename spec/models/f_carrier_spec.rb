@@ -16,7 +16,7 @@ RSpec.describe FCarrier, type: :model do
       end
 
       it "when parameter is valid but model doesn't exist" do
-        expect { @fcarrier.select_by_name("Estafeta") }.to raise_error("Internal Server Error")
+        expect { @fcarrier.select_by_name("Estafeta") }.to raise_error("Unavailable carrier")
       end
 
       it "when parameter is valid" do
